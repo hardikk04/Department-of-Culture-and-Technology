@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+@font-face {
+  font-family: regular;
+  src: url(./QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15.woff2);
+}
+.main {
+  position: relative;
+  width: 100%;
+  font-family: regular;
+}
+
+.page1 {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5vw;
+}
+
+nav > h3 {
+  font-weight: 900;
+}
+
+.page1-text {
+  position: relative;
+  text-align: center;
+  margin-top: 6vw;
+}
+
+.page1-text > h1 {
+  font-size: 4.5vw;
+  font-weight: 900;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.page1-text > h3 {
+  margin-top: 2.5vw;
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+
+.page2 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.page2::-webkit-scrollbar {
+  display: none;
+}
+
+.page2-img {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.page2-img > img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page3 {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  padding: 1.5vw;
+  padding-top: 1vw;
+}
+
+.page3 > h1 {
+  font-family: gilroy;
+  font-weight: 800;
+  font-size: 8vw;
+}
+
+.page3 > h3 {
+  font-weight: 500;
+  margin-top: 2vw;
+}
+
+.page4 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* background-color: salmon; */
+}
