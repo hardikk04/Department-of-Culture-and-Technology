@@ -280,6 +280,68 @@ nav > h3 {
 
 .page8 {
   position: relative;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
+}
+
+.page8 > h1 {
+  position: sticky;
+  top: 0;
+  font-size: 8vw;
+  padding: 1.5vw;
+  padding-top: 0;
+  font-weight: 900;
+}
+
+.page9 {
+  position: relative;
+  height: 30vh;
+  width: 100%;
+}
+
+.page9-elem-box {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.page9-elem {
+  padding: 1.5vw;
+  position: relative;
+  width: calc(100% / 4);
+  height: 100%;
+}
+
+.page9-elem > h1 {
+  font-weight: 900;
+  font-size: 1.9vw;
+}
+
+.page9-elem > p {
+  font-weight: 500;
+  margin-top: 1vw;
+  width: 90%;
+}
+
+.page9-footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5vw;
+}
+
+.page9-footer-left {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.page9-footer i {
+  font-size: 1.5vw;
+}
+
+.page9-footer-left > h3 {
+  font-weight: 400;
 }
