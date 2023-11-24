@@ -94,3 +94,17 @@ t1.to(".page5-img", {
     // markers: true,
   },
 });
+
+t1.to(".page7-img", {
+  transform: "translateX(-200%)",
+
+  scrollTrigger: {
+    scroller: "body",
+    trigger: ".page7",
+    start: "top 0%",
+    end: "top -200%",
+    pin: true,
+    scrub: 1,
+    // markers: true,
+  },
+});
