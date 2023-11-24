@@ -345,3 +345,36 @@ nav > h3 {
 .page9-footer-left > h3 {
   font-weight: 400;
 }
+
+.page10 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #ff2a1d;
+  padding: 1.5vw;
+  font-family: gilroy;
+}
+
+.page10 > h1 {
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.page10 > h1:nth-child(1) {
+  margin-left: 8vw;
+}
+
+.page10 > h1:nth-child(2) {
+  margin-top: 2vw;
+}
+
+.page10 > h1:nth-child(3) {
+  margin-top: 4vw;
+  text-align: end;
+  margin-right: 12vw;
+}
+
+.page10 > h1:nth-child(4) {
+  margin-top: 2vw;
+}
