@@ -44,6 +44,31 @@ t1.to(".page2-img", {
   },
 });
 
+t1.from(".page3>h1", {
+  opacity: 0,
+  y: -100,
+  scrollTrigger: {
+    scroller: "body",
+    trigger: ".page3",
+    start: "top 80%",
+    end: "top 50%",
+    scrub: 1,
+    // markers: true,
+  },
+});
+
+t1.to(".page3>h3", {
+  opacity: 0,
+  scrollTrigger: {
+    scroller: "body",
+    trigger: ".page3",
+    start: "top 0%",
+    end: "top -10%",
+    scrub: 1,
+    // markers: true,
+  },
+});
+
 t1.to(".page4-elem", {
   height: "26.6vh",
   stagger: 0.5,
@@ -104,6 +129,19 @@ t1.to(".page7-img", {
     start: "top 0%",
     end: "top -200%",
     pin: true,
+    scrub: 1,
+    // markers: true,
+  },
+});
+
+t1.from(".page8>h1", {
+  opacity: 0,
+  y: -100,
+  scrollTrigger: {
+    scroller: "body",
+    trigger: ".page8",
+    start: "top 70%",
+    end: "top 40%",
     scrub: 1,
     // markers: true,
   },
